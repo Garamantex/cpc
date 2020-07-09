@@ -1,0 +1,339 @@
+/* fuentes */
+
+@font-face {
+    font-family: Objective-Bold;
+    src: url(../Fonts/Objective-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Objective-medium;
+    src: url(../Fonts/Objective-Medium.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Neutral-text;
+    src: url(../Fonts/neutra-text-alt-587261020eccb.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Neutral-textBold;
+    src: url(../Fonts/neutra-text-bold-5871e1605afa2.otf);
+    font-weight: normal;
+}
+
+
+/* estilos Header */
+header {
+    position: relative;
+    z-index: 5;
+    background-color: rgba(0, 51, 153, .6);
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex--logo {
+    padding: 20px 0px;
+}
+.flex--logo img {
+    width: 60%;
+}
+.flex--redes img {
+    width: 80%;
+}
+
+/* Estilos Slide */
+
+.slide {
+    margin-top: -52px;
+}
+.carousel-caption {
+    bottom: 30% !important;
+}
+.caption--title {
+    font-family: Objective-Bold;
+    font-size: 6rem;
+    line-height: 0.9;
+}
+.caption--paragraph {
+    font-family: Objective-Bold;
+    font-size: 51px;
+    line-height: 0.9;
+    margin-bottom: 50px;
+}
+.caption--button {
+    font-family: Objective-Bold;
+    font-size: 3rem;
+    line-height: 1;
+    color: black;
+    background-color: #84E100;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+/* Estilos planes */
+
+.nosotros {
+    display: block;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.nosotros--title {
+    font-family: Objective-bold;
+    font-size: 70px;
+    color: #3D57DF;
+    text-align: center;
+}
+.nosotros--paragraph {
+    font-family: Objective-medium;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 70px;
+}
+.planes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0 150px !important;
+}
+.planes--plan {
+ display: flex;
+}
+.planes--plan-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    padding: 0px 10px;
+    background-color: #A5AAB1;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.planes--plan-img img {
+    width: 110px;
+    padding: 15px;
+}
+.planes--content-title {
+    font-family: Objective-Bold;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.planes--content-paragraph {
+    font-family: Objective-Bold;
+    font-size: 17px;
+    line-height: 1;
+}
+.planes--content-button {
+    font-family: Objective-Bold;
+    color: black;
+    font-size: 17px;
+    background-color: #84E100;
+    padding: 10px 30px;
+}
+.boton {
+    display: block;
+    margin: 60px auto !important;
+    background-color: #84E100;
+    font-family: Objective-Bold;
+    font-size: 3rem;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 50px;
+}
+
+/* Estilos Cifras */
+
+.cifras {
+    margin-bottom: 60px;
+}
+
+.cifras--numero {
+    text-align: center;
+    font-family: Objective-medium;
+    color: #3D57DF;
+    font-size: 3rem;
+    margin-bottom
+}
+.cifras--numero span {
+    background-color: #F8D4D7;
+    padding: 5px;
+}
+.cifras--texto {
+    text-align: center;
+    font-family: Objective-medium;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+/* Estilos Video */ 
+.video {
+    background-color: #E5E6E8;
+}
+.video--title {
+    font-family: Objective-Bold;
+    font-size: 2rem;
+    color: black;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video--img img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Estilos Clientes */
+.clientes {
+    margin-bottom: 50px;
+}
+.clientes--title {
+    font-family: Objective-Bold;
+    font-size: 3rem;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clientes--paragraph {
+    font-family: Objective-Bold;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card--img {
+    width: 65%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #3D57DF;
+    border-radius: 140px;
+}
+.card-deck .card {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    border: none;
+    border-radius: 10px;
+    background-color: #E5E6E8;
+}
+.card-text {
+    font-family: Neutral-text;
+    font-size: 1.4rem;
+    padding: 0 14px;
+    text-align: center;
+    line-height: 1;
+}
+.card-signature {
+    font-family: Neutral-textBold;
+    font-size: 1.4rem;
+    padding: 0 14px;
+    text-align: center;
+}
+.card-link {
+    font-family: Neutral-text;
+    font-size: 1.4rem;
+}
+.card--stars {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    padding-bottom: 30px;
+}
+/* Estilos Contacto */
+.contacto {
+    background-image: url(../img/bgcontacto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+.contacto--big {
+    font-family: Objective-Bold;
+    font-size: 6rem;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    margin-bottom: -10;
+}
+.contacto--small {
+    font-family: Objective-Bold;
+    font-size: 3rem;
+    line-height: 1;
+    color: white;
+    text-align: center;
+}
+.contacto--bg {
+    position: relative;
+    background-image: url(../img/bgcontacto2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 400px 0;
+}
+.contacto--layer {
+    background-color: rgba(61, 87, 223, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.contacto--paragraph {
+    margin-top: 15%;
+    text-align: center;
+    font-family: Objective-Bold;
+    font-size: 3rem;
+    line-height: 1;
+    color: white;
+}
+
+/* footer */
+.footer--copy {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Objective-Bold;
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+/* Test */
+.formulario--title {
+    font-family: Objective-Bold;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 60px 0;
+}
+.formulario--pregunta {
+    font-family: Objective-Bold;
+    font-weight: bold;
+}
+.formulario--label {
+    margin-right: 20px;
+}
+.formulario--box {
+    border-bottom: 2px solid blue;
+    padding: 20px;
+}
+.formulario--boton {
+    display: block !important;
+    margin: 50px auto;
+}
+button, input, optgroup, select, textarea {
+    margin: 5px !important;
+}
